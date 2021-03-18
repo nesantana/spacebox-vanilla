@@ -1,0 +1,37 @@
+html {
+
+  /*
+  Author: Mateus Santana
+  Author URI: https://omateus.me;
+  Project: SpaceBox To Commcepta
+  */
+
+  // Variavel Globais
+
+  // --
+
+  * {
+    transition: all .3s ease-in-out;
+  }
+
+  &, body{
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+
+    &:hover, &:focus, &:visited {
+      text-decoration: none;
+    }
+  }
+
+  $i: 0;
+  @while $i < 250 {
+    $i: $i + 5;
+    .mt#{$i} {
+      margin-top: #{$i}px
+    };
+  }
+}
