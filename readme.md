@@ -1,0 +1,1 @@
+Para poder utilizar o projeto no seu local, basta clonar o mesmo e dar os comandos `npm i` e `node server.js`;

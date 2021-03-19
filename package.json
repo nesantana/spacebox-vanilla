@@ -33,7 +33,5 @@
     "gulp-wait": "0.0.2",
     "node-sass": "^4.14.1"
   },
-  "scripts": {
-    "run": "open http://localhost:8080 && node server.js"
-  }
+  "scripts": {}
 }
